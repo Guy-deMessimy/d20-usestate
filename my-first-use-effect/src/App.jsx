@@ -3,7 +3,7 @@ import "./styles.css";
 import BlogSection from "./components/BlogSection";
 import Login from "./components/Login";
 
-function App2 () {
+function App () {
 
   //call "user" constant and function to set this const "useState"
 const [user, setUser] = useState("");
@@ -38,4 +38,4 @@ useEffect(() => {
       );
     }
 
-export default App2;
+export default App;
